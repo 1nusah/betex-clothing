@@ -1,6 +1,7 @@
-import React from 'react';
-export const LandingPage = () => <h1>hi there mofos yoooo</h1>;
-
-/// this is the things branch
-///hoh
-//trying main
+import Header from '../components/header/header';
+import { Grid } from '@material-ui/core';
+export const LandingPage = () => (
+	<Grid container>
+		<Header />
+	</Grid>
+);
