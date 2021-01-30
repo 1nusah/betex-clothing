@@ -1,0 +1,40 @@
+.header {
+	color: #fff;
+	margin-bottom: 10px;
+}
+.header_brand {
+	padding-left: 5%;
+}
+.header Button {
+	color: #fff;
+	display: flex;
+}
+.header_row {
+	display: flex;
+}
+.header_button {
+	margin-right: 30px;
+}
+.header_link {
+	text-decoration: none;
+}
+sup {
+	color: #fff;
+}
+.header_brand {
+	padding-right: 30%;
+}
+@media screen and (max-width: 600px) {
+	.header {
+		position: relative;
+	}
+	.header_brand {
+		padding-right: 70%;
+	}
+	.menuIcon {
+		right: 0;
+	}
+	.header_link {
+		text-decoration: none;
+	}
+}
