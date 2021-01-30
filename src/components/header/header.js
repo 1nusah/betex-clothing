@@ -24,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
 		flexGrow: 1,
 	},
 }));
+//streak
 const Header = () => {
 	const classes = useStyles();
 	const searchBool = true;
